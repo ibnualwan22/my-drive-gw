@@ -112,6 +112,9 @@ export function RegisterPage() {
         </div>
         <p className="mt-5 text-center text-sm text-slate-500">Already registered? <Link className="font-bold text-blue-600" to="/login">Masuk</Link></p>
       </Card>
+      <div className="absolute bottom-4 w-full text-center text-xs text-slate-400">
+        By continuing, you agree to our <Link to="/terms" className="hover:underline">Terms of Service</Link> and <Link to="/privacy" className="hover:underline">Privacy Policy</Link>.
+      </div>
     </main>
   )
 }
